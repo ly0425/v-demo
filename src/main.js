@@ -6,7 +6,8 @@ import axios from 'axios'
 import 'mint-ui/lib/style.css'
 import App from './App'
 import router from './router'
-import './assets/common.css'
+import './assets/css/iconfont/iconfont.css'
+import './assets/css/common.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
