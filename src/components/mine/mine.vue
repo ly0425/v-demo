@@ -1,5 +1,9 @@
 <template>
-  <div>我i的页面</div>
+  <div>
+    <mt-header title="我的">
+      <mt-button slot="right"></mt-button>
+    </mt-header>
+  </div>
 </template>
 
 <script>
