@@ -18,5 +18,13 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  mounted () {
+    axios.get(
+      'http://localhost:3000/users',
+      {headers: { 'Content-Type': '' }}
+    ).then(function (res) {
+      console.log(res.data)
+    })
+  }
 })
