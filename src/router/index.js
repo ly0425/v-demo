@@ -4,6 +4,7 @@ import tabbar from '@/components/tabbar'
 import home from '@/components/home/home'
 import find from '@/components/find/find'
 import mine from '@/components/mine/mine'
+import goodsDetails from '@/components/home/goodsDetails'
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
           path: '/home',
           name: 'home',
           component: home
+        },
+        {
+          path: '/goodsDetails',
+          name: 'goodsDetails',
+          component: goodsDetails
         },
         {
           path: '/find',
