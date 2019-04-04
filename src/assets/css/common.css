@@ -22,3 +22,7 @@ a {
 .van-card__content {
   text-align: left;
 }
+
+.mint-tabbar {
+  position: fixed;
+}
