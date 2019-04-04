@@ -17,11 +17,18 @@
     />
     <van-card
       num="2"
+      tag="标签"
       price="2.00"
       desc="描述信息"
       title="2018秋冬新款男士休闲时尚军绿飞行夹克秋冬新款男"
       :thumb="imageURL"
-    />
+      origin-price="10.00"
+    >
+      <div slot="footer">
+        <van-button size="mini">按钮</van-button>
+        <van-button size="mini">按钮</van-button>
+      </div>
+    </van-card>
 
   </div>
 </template>
