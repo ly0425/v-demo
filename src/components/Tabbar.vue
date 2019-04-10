@@ -38,6 +38,7 @@ export default {
   },
   mounted () {
     this.selected = this.$route.name
+    console.log(this.$route.fullPath)
   }
 }
 </script>
